@@ -1,0 +1,21 @@
+
+
+/* Dispositivos móviles (≤768px) */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+    .form-control, .btn {
+        width: 100%;
+    }
+}
